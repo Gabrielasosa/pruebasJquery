@@ -1,0 +1,16 @@
+img {
+    width: 200px;
+    height: 200px;
+}
+
+hr {
+    margin-bottom: 60px;
+}
+
+#caja {
+   width: 200px;
+   height: 200px;
+   border: 1px solid black;
+   position: absolute;
+
+}

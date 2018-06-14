@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Prueba Jquery Gabriela</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <script src="js/lib/jquery-3.3.1.min.js"></script>
+    <style>
+    .textoVerde{
+        color: green;
+    }
+    .textoNegrita{
+        font-weight: bold;
+        
+    }
+    </style>
+</head>
+<body>
+    <div>
+        <ul id="color1">
+            <li>Hola 1</li>
+            <li>Hola 2</li>
+            <li>Hola 3</li>
+        </ul>
+        <script>
+         jQuery("li").css("color","red");//ponemos todos los li en el color asignado por jQuery
+        </script>
+        <ul id="color2">
+            <li>negrita</li>
+            <li>rojito</li>
+            <li>verdesito</li>
+        </ul>
+        <script>
+        $("li").addClass("textoVerde");
+        </script>
+        <ul id="color3">
+            <li>Gabriela</li>
+            <li> Rocio</li>
+            <li>Bea</li>
+            <li>Rosa</li>
+        </ul>
+        <script>
+        $('li').addClass("textoNegrita")
+        </script>
+    
+        <script>
+        $(document).ready(
+            function(){
+                $('ul').addClass('textoVerde');
+            }
+        )
+        </script>
+</div>
+    
+</body>
+</html>
