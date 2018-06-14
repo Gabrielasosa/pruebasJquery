@@ -9,3 +9,7 @@
     font-weight: 300;
     box-sizing: border-box;
 };
+
+
+ul.images { position:relative; }
+  ul.images li { position:absolute; }
