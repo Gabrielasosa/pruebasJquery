@@ -24,18 +24,18 @@
   <script src="js/Mijs.js"></script>
   <script src="js/slider.js"></script>
   <!-- mi CSS-->
-  <link rel="stylesheet" href="/css/micss.css">
+  <link rel="stylesheet" href="css/micss.css">
 </head>
 
 <body>
 
-  <div class="container">
-    <!--título página-->
-    <span class="badge badge-success principal">
-      <h1>PRACTICANDO JS </h1>
-    </span>
 
-    <!--Menú-->
+  <!--Menú-->
+  <div class="container principal">
+     <!--título página-->
+     <button class="btn btn btn-success  ">
+        <h1>PRACTICANDO JS </h1>
+      </button>
     <nav class="navbar navbar-dark bg-dark">
       <a class="nav-link nav-item active" href="./index.html">Inicio</a>
       <a class="nav-link nav-item" href="#">calculadora</a>
@@ -43,60 +43,53 @@
       <a class="nav-link nav-item" href="#">Juego Chapuza</a>
       <a class="nav-link nav-item" href="#">Contacto</a>
     </nav>
-    <!-- Mi slider -->
-    <div id="slider">
-      <ul>
-        <li>
-          <img src="img/message-in-a-bottle-1694868_1920.jpg" alt="">
-        </li>
-        <li>
-          <img src="img/beach-84533_1920.jpg" alt="">
-        </li>
-        <li>
-          <img src="img/maldives-1993704_1920.jpg" alt="">
-        </li>
-        <li>
-          <img src="img/pier-569314_1920.jpg" alt="">
-        </li>
-      </ul>
-    </div>
-    <!--fin slider -->
+  </div>
+  <!--final menu -->
+  <!-- Mi slider -->
+  <div id="slider" class="container">
+    <ul>
+      <li>
+        <img src="img/playa1.jpg" alt="">
+      </li>
 
+      <li>
+        <img src="img/maldives-1993704_1920.jpg" alt="">
+      </li>
+      <li>
+        <img src="img/playa3.jpg" alt="">
+      </li>
+      <li>
+        <img src="img/playa4.jpg" alt="">
+      </li>
+      <li>
+        <img src="img/playa5.jpg" alt="">
+      </li>
+    </ul>
+  </div>
+  <!--fin slider -->
+  <!--Comienza el siguiente contenido -->
+  </div>
+  <div class="container">
     <div class="row">
-      <div class="col-md-3 offset-md-3">
-          <span class="badge badge-success text-rigth">
-              <h4>Comentarios</h4>
-            </span>
+      <div class="col-8">
+        <button class="btn btn btn-success float-right">
+          <h4>Comentarios</h4>
+        </button>
         <h3>Título</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptates animi sapiente reprehenderit et doloribus
           similique atque maxime quia ex. Qui esse tenetur modi similique reiciendis sit. Ad, laboriosam temporibus.</p>
-
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut debitis doloribus quisquam nulla laboriosam omnis fuga reiciendis,
+          libero esse corrupti labore fugiat? Aliquam vero dolorem quo adipisci laboriosam? Maxime, numquam!
+        </p>
       </div>
-      <!--fin row1 -->
-      <div class="col-md-3 offset-md-3">
+      <div class="col-4">
         <!--barra lateral-->
         <h2>¿Quién soy?</h2>
         <!--debe tener un acordeón-->
-
-        <img src="">
-        <p></p>
-
       </div>
-      <!--fin row2 -->
     </div>
-    <!--fin row -->
   </div>
-  <!--fin contenedor -->
-
-
-
-
-
-
-
-
-
-
   <!-- 1ºjQuery, 2ºPopper.js, 3º Bootstrap JS (links externos) 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

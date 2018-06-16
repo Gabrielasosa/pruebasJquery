@@ -1,7 +1,13 @@
+body {
+  background-image: url("../img/playa2.jpg");
+
+}
 .principal{
-      margin: 10px;
-      padding:10px;
- 
+      margin: 10px auto;
+      padding:20px;
+ }
+ .container{
+  background-color: #cccccc;
  }
  .fotslider{margin: 0 0;
     text-align: center;
