@@ -1,3 +1,37 @@
 $(document).ready(function () {
-   
-})//fin document.ready
+
+      //acordeon
+      var dds = $('dd');
+      dds.hide();
+  
+      $('dt').on('mouseenter', function () {
+          dds.slideUp(200);
+          $(this).next().slideDown(200);
+      });//fin de acordeon
+  
+    //ancla para subir
+    $(function () {
+        $('a[href*=#]').click(function () {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+                && location.hostname == this.hostname) {
+
+                var $target = $(this.hash);
+
+                $target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');
+
+                if ($target.length) {
+
+                    var targetOffset = $target.offset().top;
+
+                    $('html,body').animate({ scrollTop: targetOffset }, 1000);
+
+                    return false;
+
+                }//fin segundo if
+
+            }//fin del primer if
+
+        });//fin de llamamieno
+      
+    });//fin de la funcion
+});//fin document.ready
