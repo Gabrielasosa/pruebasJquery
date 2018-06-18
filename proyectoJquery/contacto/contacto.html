@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Title</title>
+    <title>Pagina Contacto</title>
     <!-- meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -23,6 +23,7 @@
     <!-- mis Script -->
     <script src="../js/Mijs.js"></script>
     <script src="../js/contacto.js"></script>
+    <script src="../js/dni.js"></script>
     <!-- mi CSS-->
     <link rel="stylesheet" href="../css/micss.css">
     <link rel="stylesheet" href="../css/contacto.css">
@@ -68,19 +69,46 @@
                     <a class="nav-link nav-item" href="../calculadora/calculadora.html">calculadora</a>
                     <a class="nav-link nav-item" href="../reloj/reloj.html">Reloj</a>
                     <a class="nav-link nav-item" href="../juego/juego.html">Juego Chapuza</a>
-                    <a class="nav-link nav-item" href="./contacto/contacto.html">Contacto</a>
+                    <a class="nav-link nav-item" href="./contacto.html">Contacto</a>
                 </nav>
             </div>
             <!--final menu -->
-         <div class="FomrCuerpo cuerpo">
-                <form class='contacto'>
-                        <div><label>Tu Nombre:</label><input type='text' class='nombre' value=''></div>
-                        <div><label>Tu Email:</label><input type='text' class='email' value=''></div>
-                        <div><label>Asunto:</label><input type='text' class='asunto' value=''></div>
-                        <div><label>Mensaje:</label><textarea rows='6' class='mensaje'></textarea></div>
-                        <div><input type='submit' value='Envia Mensaje' class='boton'></div>
-                    </form>
-        </div>
+            <!--Comienza el formulario -->
+            <div class="FomrCuerpo cuerpo">
+                <form class='contacto' name="calculator" action="javascript:submitForm()">
+                    <div>
+                        <label>Tu Nombre:</label>
+                        <input type='text' class='nombre' value=''>
+                    </div>
+                    <div>
+
+                        <label for="dni">Número DNI:</label>
+                        <input maxlength="8" id="dni" size="12"> Letra:
+                        <input id="letter" disabled="disabled" size="2">
+                        <br><br>
+                        <input type="submit" value="Calcular" name="btnCalculate" class="btn btn btn-success">
+                        <input type="reset" value="Borrar" name="btnClear" onclick="focusDNI()" class="btn btn btn-success">
+
+                    </div>
+                    <div>
+                        <label>Tu Email:</label>
+                        <input type='text' class='email' value=''>
+                    </div>
+                    <div>
+                        <label>Asunto:</label>
+                        <input type='text' class='asunto' value=''>
+                    </div>
+
+                    <div>
+                        <label>Mensaje:</label>
+                        <textarea rows='6' class='mensaje'></textarea>
+                    </div>
+                    <div>
+                        <input type='submit' value='Envia Mensaje' class="btn btn btn-success">
+                    </div>
+                </form>
+               
+            </div>
             <!-- boton subir -->
             <div>
 
