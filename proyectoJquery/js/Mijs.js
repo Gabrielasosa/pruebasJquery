@@ -27,11 +27,11 @@ $(document).ready(function () {
 
                     return false;
 
-                }//fin segundo if
+                }// if
 
-            }//fin del primer if
+            }// if
 
-        });//fin de llamamieno
+        });//function
       
     });//fin de la funcion
 

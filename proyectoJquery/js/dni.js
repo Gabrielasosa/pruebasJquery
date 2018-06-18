@@ -1,4 +1,4 @@
-//-------------------DNI
+//-------------------DNI JavaScript
 function calculateLetter (){
     var dniKey = 'TRWAGMYFPDXBNJZSQVHLCKET';
     var position = document.getElementById("dni").value % 23;
