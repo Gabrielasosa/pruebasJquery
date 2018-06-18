@@ -6,10 +6,10 @@ body {
       margin: 10px auto;
       padding:20px;
  }
- .container{
+ .container1{
   background-color: #cccccc;
  }
- .fotslider{margin: 0 0;
+ /* .fotslider{margin: 0 0;
     text-align: center;
     background-color: rgba(255,255,255,0.38);
     height: 100%;
@@ -19,9 +19,5 @@ body {
     letter-spacing: -0.1rem;
     font-weight: 300;
     box-sizing: border-box;
-};
+}; */
 
-
-
-ul.images { position:relative; }
-  ul.images li { position:absolute; }

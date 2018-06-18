@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Title</title>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/bootstrap.min.css" />
+    <!-- fonts CSS-->
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/fontawesome-all.min.css" />
+    <!-- Jquery CSS-->
+    <link rel="stylesheet" href="../js/lib/jquery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="../js/lib/jquery-ui-1.12.1/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="../js/lib/jquery-ui-1.12.1/jquery-ui.theme.min.css">
+    <!-- JavaScript 1ºjQuery, 2ºPopper.js, 3º Bootstrap JS (internos)-->
+    <script src="../js/lib/jquery-3.3.1.min.js"></script>
+    <script src="../js/lib/popper.min.js"></script>
+    <script src="../js/lib/bootstrap.min.js"></script>
+    <script src="../js/lib/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <!-- mis Script -->
+    <script src="../js/Mijs.js"></script>
+    <script src="../js/contacto.js"></script>
+    <!-- mi CSS-->
+    <link rel="stylesheet" href="../css/micss.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+</head>
+
+<body>
+
+    <div class="container container1">
+
+        <!-- titulo -->
+        <div class="principal">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <button class="btn btn btn-success">
+                            <h1>PRACTICANDO JS </h1>
+                        </button>
+                    </div>
+                    <div class="col">
+                        <!-- columna vacia -->
+                        <div id="ancla">
+                            <!-- ancla para mostrar el contenido de arriba -->
+                        </div>
+                    </div>
+                    <div class="col">
+
+
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2" type="search" placeholder="¿Que quieres buscar?" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                                <i class="fas fa-search"> </i>
+                            </button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--Menú-->
+            <div class="container">
+                <nav class="navbar navbar-dark bg-dark principal">
+                    <a class="nav-link nav-item active" href="../index.html">Inicio</a>
+                    <a class="nav-link nav-item" href="../calculadora/calculadora.html">calculadora</a>
+                    <a class="nav-link nav-item" href="../reloj/reloj.html">Reloj</a>
+                    <a class="nav-link nav-item" href="../juego/juego.html">Juego Chapuza</a>
+                    <a class="nav-link nav-item" href="./contacto/contacto.html">Contacto</a>
+                </nav>
+            </div>
+            <!--final menu -->
+         <div class="FomrCuerpo cuerpo">
+                <form class='contacto'>
+                        <div><label>Tu Nombre:</label><input type='text' class='nombre' value=''></div>
+                        <div><label>Tu Email:</label><input type='text' class='email' value=''></div>
+                        <div><label>Asunto:</label><input type='text' class='asunto' value=''></div>
+                        <div><label>Mensaje:</label><textarea rows='6' class='mensaje'></textarea></div>
+                        <div><input type='submit' value='Envia Mensaje' class='boton'></div>
+                    </form>
+        </div>
+            <!-- boton subir -->
+            <div>
+
+                <a href="#ancla" class="btn btn-success" role="button">Subir
+                    <i class="fas fa-angle-up"></i>
+                </a>
+
+            </div>
+            <!-- contenedor principal -->
+
+        </div>
+
+</body>
+
+</html>
