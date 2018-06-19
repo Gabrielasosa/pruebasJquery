@@ -1,14 +1,14 @@
 $(document).ready(function () {
 
-      //acordeon
-      var dds = $('dd');
-      dds.hide();
-  
-      $('dt').on('mouseenter', function () {
-          dds.slideUp(200);
-          $(this).next().slideDown(200);
-      });//fin de acordeon
-  
+    //acordeon
+    var dds = $('dd');
+    dds.hide();
+
+    $('dt').on('mouseenter', function () {
+        dds.slideUp(200);
+        $(this).next().slideDown(200);
+    });//fin de acordeon
+
     //ancla para subir
     $(function () {
         $('a[href*=#]').click(function () {
@@ -32,8 +32,21 @@ $(document).ready(function () {
             }// if
 
         });//function
-      
+
     });//fin de la funcion
 
+    //cambiador de tamas
+    //----tema1
+    $("#tema1").click(function () {
+        $('body').css("background-image", "url(../img/temas/tema1_1920.jpg)");
+    });
+    //----tema2
+    $("#tema2").click(function () {
+        $('body').css("background-image", "url(../img/temas/tema2_1920.jpg)");
+    });
+    //----tema3
+    $("#tema3").click(function () {
+        $('body').css("background-image", "url(../img/temas/playa1.jpg)");
+    });
 
 });//fin document.ready

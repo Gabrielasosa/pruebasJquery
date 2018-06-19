@@ -1,5 +1,7 @@
 body {
   background-image: url("../img/playa2.jpg");
+  /* background-image: url("../img/temas/tema1_1920.jpg"); */
+
 
 }
 .principal{
@@ -9,15 +11,4 @@ body {
  .container1{
   background-color: #cccccc;
  }
- /* .fotslider{margin: 0 0;
-    text-align: center;
-    background-color: rgba(255,255,255,0.38);
-    height: 100%;
-    padding-top: 100px;
-    font-size: 3.8rem;
-    color: #02182B;
-    letter-spacing: -0.1rem;
-    font-weight: 300;
-    box-sizing: border-box;
-}; */
-
+ 
